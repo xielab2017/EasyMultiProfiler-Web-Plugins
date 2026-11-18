@@ -1,0 +1,62 @@
+[
+  {
+    "path": "examples/zotero-style-chat",
+    "title": "Zotero 风格研究助手",
+    "kind": "研究对话",
+    "mark": "AI",
+    "minimum": "10.3.0",
+    "summary": "在分析页面边读论文边提问，用已有的 MiniMax 或其他模型整理研究笔记。",
+    "steps": [
+      "打开「模型与 API」，加载已配置的模型。",
+      "打开「插件」，选择下载的 plugin.json，点击「启用」和「打开聊天」。",
+      "在对话框加入 PDF、摘要或 Markdown，选择「要点」「研究方法」或「局限性」后发送。"
+    ],
+    "note": "设置可选择随屏幕大小、展开或收起。问答与 Agent 共用 EMP 的模型连接。启停保留当前浏览器保存的对话文字。需要 EMP 的 Python AI 服务和可用模型。",
+    "permission": "chat.panel，使用 EMP 提供的研究对话窗口。"
+  },
+  {
+    "path": "examples/sample-quality",
+    "title": "样本质量概览",
+    "kind": "分析方法",
+    "mark": "Σ",
+    "minimum": "10.0.0",
+    "summary": "按样本统计观测值、缺失值、均值、标准差和变异系数。",
+    "steps": [
+      "在「插件」上传 plugin.json 并启用。EMP 10.0–10.1 的安装入口在工作台。",
+      "导入实验矩阵，在插件面板选择实验、主 assay 和 Sample quality summary。",
+      "点击「运行分析」查看指标。10.2 起可在插件设置中选择需要的指标。"
+    ],
+    "note": "适用于特征为行、样本为列的数值矩阵。变异系数使用标准差除以均值，均值为零时结果为空。",
+    "permission": "assay.read 读取选定矩阵，job.result.write 写入新任务结果。"
+  },
+  {
+    "path": "examples/quality-bars",
+    "title": "样本质量条形图",
+    "kind": "结果展示",
+    "mark": "▥",
+    "minimum": "10.0.0",
+    "summary": "把结果表里的样本均值画成条形图，快速比较样本间的差异。",
+    "steps": [
+      "在「插件」上传 plugin.json 并启用。EMP 10.0–10.1 的安装入口在工作台。",
+      "选择已完成且含 mean 列的插件任务，例如「样本质量概览」的结果。",
+      "选择 Sample quality bars，点击「展示结果」。"
+    ],
+    "note": "默认显示前 30 行。EMP 10.2 起可在设置中切换表格或条形图，并调整行数。",
+    "permission": "job.result.read 读取所选任务的结果表。"
+  },
+  {
+    "path": "ai-providers/groq",
+    "title": "Groq 模型接口",
+    "kind": "模型服务",
+    "mark": "G",
+    "minimum": "9.4.0",
+    "summary": "把 Groq 接入 EMP 的模型选择器，用自己的 API Key 测试连接。",
+    "steps": [
+      "下载 plugin.json，在 EMP 安装目录建立 plugins/ai-providers/groq/ 并把文件放入其中。",
+      "刷新「模型与 API」，选择 Groq · Plugin，填写自己的 Groq API Key。",
+      "检测模型列表，选择账号可用的模型，保存并加载后进行连接测试。"
+    ],
+    "note": "由本机管理员安装。需要可访问 Groq 的网络和有效凭据，模型供应情况以账号的检测结果为准。",
+    "permission": "调用模型会向 api.groq.com 发送本次提交的内容。下载包只包含服务清单。"
+  }
+]
