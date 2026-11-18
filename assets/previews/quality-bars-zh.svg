@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="zh" width="640" height="300" viewBox="0 0 640 300" role="img" aria-labelledby="quality-bars-zh-title quality-bars-zh-desc" font-family="Inter,Arial,'PingFang SC','Microsoft YaHei',sans-serif">
+<title id="quality-bars-zh-title">样本均值比较</title>
+<desc id="quality-bars-zh-desc">合成数据 · 各样本观测值的均值</desc>
+<defs><linearGradient id="quality-bars-zh-wash" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#f1f6ff"/><stop offset="1" stop-color="#d4e3fb"/></linearGradient></defs>
+<rect x="0" y="0" width="640" height="300" rx="0" fill="url(#quality-bars-zh-wash)"/>
+<text x="29" y="40" font-size="24" font-weight="700" fill="#182c43" text-anchor="start">样本均值比较</text>
+<text x="29" y="64" font-size="14" font-weight="500" fill="#435e86" text-anchor="start">合成数据 · 各样本观测值的均值</text>
+<rect x="27" y="81" width="586" height="199" rx="12" fill="#fff" stroke="#b7cae6"/>
+<defs><linearGradient id="quality-bars-zh-bars"><stop stop-color="#45639c"/><stop offset="1" stop-color="#4b82cd"/></linearGradient></defs>
+<path d="M110 97L110 243" fill="none" stroke="#cfdaea" stroke-width="1"/>
+<text x="110" y="263" font-size="14" font-weight="500" fill="#50677c" text-anchor="middle">0</text>
+<path d="M220 97L220 243" fill="none" stroke="#cfdaea" stroke-width="1"/>
+<text x="220" y="263" font-size="14" font-weight="500" fill="#50677c" text-anchor="middle">5</text>
+<path d="M330 97L330 243" fill="none" stroke="#cfdaea" stroke-width="1"/>
+<text x="330" y="263" font-size="14" font-weight="500" fill="#50677c" text-anchor="middle">10</text>
+<path d="M440 97L440 243" fill="none" stroke="#cfdaea" stroke-width="1"/>
+<text x="440" y="263" font-size="14" font-weight="500" fill="#50677c" text-anchor="middle">15</text>
+<path d="M550 97L550 243" fill="none" stroke="#cfdaea" stroke-width="1"/>
+<text x="550" y="263" font-size="14" font-weight="500" fill="#50677c" text-anchor="middle">20</text>
+<text x="49" y="119" font-size="17" font-weight="640" fill="#182c43" text-anchor="start">S01</text>
+<rect x="110" y="101" width="264" height="23" rx="3" fill="url(#quality-bars-zh-bars)"/>
+<text x="384" y="118" font-size="16" font-weight="660" fill="#294f7f" text-anchor="start">12.0</text>
+<text x="49" y="155" font-size="17" font-weight="640" fill="#182c43" text-anchor="start">S02</text>
+<rect x="110" y="137" width="396" height="23" rx="3" fill="url(#quality-bars-zh-bars)"/>
+<text x="516" y="154" font-size="16" font-weight="660" fill="#294f7f" text-anchor="start">18.0</text>
+<text x="49" y="191" font-size="17" font-weight="640" fill="#182c43" text-anchor="start">S03</text>
+<rect x="110" y="173" width="198" height="23" rx="3" fill="url(#quality-bars-zh-bars)"/>
+<text x="318" y="190" font-size="16" font-weight="660" fill="#294f7f" text-anchor="start">9.0</text>
+<text x="49" y="227" font-size="17" font-weight="640" fill="#182c43" text-anchor="start">S04</text>
+<rect x="110" y="209" width="330" height="23" rx="3" fill="url(#quality-bars-zh-bars)"/>
+<text x="450" y="226" font-size="16" font-weight="660" fill="#294f7f" text-anchor="start">15.0</text>
+</svg>

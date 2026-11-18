@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="640" height="300" viewBox="0 0 640 300" role="img" aria-labelledby="zotero-style-chat-en-title zotero-style-chat-en-desc" font-family="Inter,Arial,'PingFang SC','Microsoft YaHei',sans-serif">
+<title id="zotero-style-chat-en-title">From paper to research notes</title>
+<desc id="zotero-style-chat-en-desc">Illustrative conversation · Fictional paper excerpt</desc>
+<defs><linearGradient id="zotero-style-chat-en-wash" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#f6f4ff"/><stop offset="1" stop-color="#dcd9f3"/></linearGradient></defs>
+<rect x="0" y="0" width="640" height="300" rx="0" fill="url(#zotero-style-chat-en-wash)"/>
+<text x="29" y="40" font-size="24" font-weight="700" fill="#182c43" text-anchor="start">From paper to research notes</text>
+<text x="29" y="64" font-size="14" font-weight="500" fill="#625788" text-anchor="start">Illustrative conversation · Fictional paper excerpt</text>
+<rect x="29" y="88" width="193" height="187" rx="7" fill="#cdc9df"/>
+<rect x="25" y="84" width="193" height="187" rx="7" fill="#fffdfa" stroke="#d5d0de"/>
+<text x="42" y="113" font-size="15" font-weight="650" fill="#654f7a" text-anchor="start">Paper excerpt</text>
+<path d="M42 124L200 124" fill="none" stroke="#ddd5d9" stroke-width="1"/>
+<text x="42" y="156" font-size="24" font-weight="700" fill="#302a42" text-anchor="start" font-family="Georgia,'Songti SC',serif" >Methods</text>
+<text x="42" y="184" font-size="15" font-weight="400" fill="#4c4b5e" text-anchor="start" font-family="Georgia,'Songti SC',serif" >Across four samples,</text>
+<text x="42" y="204" font-size="15" font-weight="400" fill="#4c4b5e" text-anchor="start" font-family="Georgia,'Songti SC',serif" >we averaged observed</text>
+<text x="42" y="224" font-size="15" font-weight="400" fill="#4c4b5e" text-anchor="start" font-family="Georgia,'Songti SC',serif" >values and recorded</text>
+<text x="42" y="244" font-size="15" font-weight="400" fill="#4c4b5e" text-anchor="start" font-family="Georgia,'Songti SC',serif" >missing counts.</text>
+<rect x="240" y="86" width="372" height="67" rx="12" fill="#eae7fc" stroke="#c9c3e8"/>
+<text x="257" y="109" font-size="13" font-weight="670" fill="#5d5282" text-anchor="start">Question</text>
+<text x="257" y="135" font-size="16" font-weight="540" fill="#182c43" text-anchor="start">How did the paper summarize each sample?</text>
+<rect x="240" y="165" width="372" height="107" rx="12" fill="#fff" stroke="#c9c3e8"/>
+<text x="257" y="190" font-size="14" font-weight="700" fill="#5d5282" text-anchor="start">Research notes</text>
+<rect x="257" y="209" width="5" height="5" rx="2" fill="#8171b8"/>
+<text x="271" y="218" font-size="15" font-weight="400" fill="#39384c" text-anchor="start">Compute each mean from observed values.</text>
+<rect x="257" y="234" width="5" height="5" rx="2" fill="#8171b8"/>
+<text x="271" y="243" font-size="15" font-weight="400" fill="#39384c" text-anchor="start">List missing counts to track sample coverage.</text>
+</svg>

@@ -5,9 +5,16 @@
     "kind": "研究对话",
     "summary": "在分析页面边读论文边提问，用已有的 MiniMax 或其他模型整理研究笔记。",
     "minimum": "10.3.0",
+    "preview_alt": "研究对话示意，展示方法提问与研究笔记。",
     "id": "zotero-style-chat",
     "version": "1.0.0",
     "sha256": "11398cff8842f0bbb42183b6ec5ea69a38eb65a8712eddb4decf30661ffb23ee",
+    "en": {
+      "title": "Zotero-style research chat",
+      "kind": "Research chat",
+      "summary": "Read papers alongside your analysis. Use an existing MiniMax or other model connection to turn a question into a research note.",
+      "preview_alt": "Illustration of a methods question and a research note."
+    },
     "permissions": [
       "chat.panel"
     ]
@@ -18,9 +25,16 @@
     "kind": "分析方法",
     "summary": "按样本统计观测值、缺失值、均值、标准差和变异系数。",
     "minimum": "10.0.0",
+    "preview_alt": "合成样本的质量统计表示例。",
     "id": "sample-quality",
     "version": "1.0.0",
     "sha256": "18fa2f028ec661dbf56acabf2773264b56dacbe5aeb12b691795ebefa07ee2ed",
+    "en": {
+      "title": "Sample quality summary",
+      "kind": "Analysis methods",
+      "summary": "Calculate observed and missing values, mean, standard deviation and coefficient of variation for each sample.",
+      "preview_alt": "Example quality table for synthetic samples."
+    },
     "permissions": [
       "assay.read",
       "job.result.write"
@@ -32,9 +46,16 @@
     "kind": "结果展示",
     "summary": "把结果表里的样本均值画成条形图，快速比较样本间的差异。",
     "minimum": "10.0.0",
+    "preview_alt": "用与质量统计表相同的合成样本展示均值。",
     "id": "quality-bars",
     "version": "1.0.0",
     "sha256": "75d34d5a07f2dfa7f8f6a48b3da99e89b6e4c8b9c0d078275b4067a7e4910b29",
+    "en": {
+      "title": "Sample quality bars",
+      "kind": "Result views",
+      "summary": "Compare sample means from an existing result table in a bar chart.",
+      "preview_alt": "Bar chart of mean values from the same synthetic samples as the quality table."
+    },
     "permissions": [
       "job.result.read"
     ]
@@ -45,9 +66,16 @@
     "kind": "模型服务",
     "summary": "把 Groq 接入 EMP 的模型选择器，用自己的 API Key 测试连接。",
     "minimum": "9.4.0",
+    "preview_alt": "Groq 模型配置与连接操作示意。",
     "id": "groq",
     "version": "1.0.0",
     "sha256": "767ef42e0a086c9c8b837b103a947f4ad4dd9fae797394b36e872643e46bf805",
+    "en": {
+      "title": "Groq model provider",
+      "kind": "Model services",
+      "summary": "Add Groq to the EMP model selector and test the connection with your own API key.",
+      "preview_alt": "Example Groq provider configuration and connection controls."
+    },
     "permissions": [
       "https://api.groq.com/openai/v1"
     ]

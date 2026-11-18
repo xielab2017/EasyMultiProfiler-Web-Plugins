@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="640" height="300" viewBox="0 0 640 300" role="img" aria-labelledby="groq-en-title groq-en-desc" font-family="Inter,Arial,'PingFang SC','Microsoft YaHei',sans-serif">
+<title id="groq-en-title">Groq connection settings</title>
+<desc id="groq-en-desc">Illustrative configuration · Models &amp; API</desc>
+<defs><linearGradient id="groq-en-wash" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#fff8ef"/><stop offset="1" stop-color="#f2dcc5"/></linearGradient></defs>
+<rect x="0" y="0" width="640" height="300" rx="0" fill="url(#groq-en-wash)"/>
+<text x="29" y="40" font-size="24" font-weight="700" fill="#182c43" text-anchor="start">Groq connection settings</text>
+<text x="29" y="64" font-size="14" font-weight="500" fill="#855937" text-anchor="start">Illustrative configuration · Models &amp; API</text>
+<rect x="27" y="82" width="586" height="198" rx="12" fill="#fffdfb" stroke="#ddc6b1"/>
+<text x="47" y="116" font-size="15" font-weight="600" fill="#715d4c" text-anchor="start">Provider</text>
+<rect x="181" y="93" width="410" height="33" rx="6" fill="#fff" stroke="#dbd0c5"/>
+<text x="193" y="115" font-size="16" font-weight="500" fill="#392d25" text-anchor="start">Groq · Plugin</text>
+<path d="M565 107l5 5 5-5" fill="none" stroke="#7d6550" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="47" y="160" font-size="15" font-weight="600" fill="#715d4c" text-anchor="start">Base URL</text>
+<rect x="181" y="137" width="410" height="33" rx="6" fill="#fff" stroke="#dbd0c5"/>
+<text x="193" y="159" font-size="16" font-weight="500" fill="#392d25" text-anchor="start">https://api.groq.com/openai/v1</text>
+<text x="47" y="204" font-size="15" font-weight="600" fill="#715d4c" text-anchor="start">API Key</text>
+<rect x="181" y="181" width="410" height="33" rx="6" fill="#fff" stroke="#dbd0c5"/>
+<text x="193" y="203" font-size="16" font-weight="500" fill="#796a60" text-anchor="start">Enter your API key</text>
+<path d="M28 227L612 227" fill="none" stroke="#e5d7cb" stroke-width="1"/>
+<rect x="47" y="238" width="225" height="32" rx="7" fill="#f9ece1" stroke="#ddc3ac"/>
+<text x="159" y="259" font-size="14" font-weight="620" fill="#70462b" text-anchor="middle">Detect available models</text>
+<rect x="285" y="238" width="307" height="32" rx="7" fill="#805135"/>
+<text x="439" y="259" font-size="14" font-weight="650" fill="#fff" text-anchor="middle">Save and load into analysis agent</text>
+</svg>

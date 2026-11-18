@@ -1,6 +1,6 @@
 # EasyMultiProfiler Web 插件
 
-[打开插件商店](https://xielab2017.github.io/EasyMultiProfiler-Web-Plugins/)。选择插件后点击「在 EMP 中安装」，或直接在 EMP 10.4+ 的插件页一键安装。兼容版本以各插件页为准。
+[English](README.en.md) · [打开插件商店](https://xielab2017.github.io/EasyMultiProfiler-Web-Plugins/)。选择插件后点击「在 EMP 中安装」，或直接在 EMP 10.4+ 的插件页一键安装。兼容版本以各插件页为准。
 
 | 插件 | 类型 | 最低 EMP 版本 |
 | --- | --- | --- |
@@ -11,4 +11,4 @@
 
 ## 添加插件
 
-每个插件有自己的文件夹。放入 plugin.json 和 README.md，在 catalog.json 添加用途、安装步骤和兼容版本，运行 python3 build.py 生成商店首页和详情页。使用对应版本的 EMP 验证清单后发布。
+每个插件有自己的文件夹。放入 plugin.json，在 catalog.json 添加中英文用途、安装步骤和兼容版本，在 assets/previews 添加两种语言的预览图，运行 python3 build.py 生成中英文商店首页、详情页和插件说明。使用对应版本的 EMP 验证清单后发布。

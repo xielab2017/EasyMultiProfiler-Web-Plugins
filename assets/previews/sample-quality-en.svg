@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="640" height="300" viewBox="0 0 640 300" role="img" aria-labelledby="sample-quality-en-title sample-quality-en-desc" font-family="Inter,Arial,'PingFang SC','Microsoft YaHei',sans-serif">
+<title id="sample-quality-en-title">Quality metrics by sample</title>
+<desc id="sample-quality-en-desc">Synthetic matrix · 8 features, 4 samples</desc>
+<defs><linearGradient id="sample-quality-en-wash" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#f0faf6"/><stop offset="1" stop-color="#c4e9df"/></linearGradient></defs>
+<rect x="0" y="0" width="640" height="300" rx="0" fill="url(#sample-quality-en-wash)"/>
+<text x="29" y="40" font-size="24" font-weight="700" fill="#182c43" text-anchor="start">Quality metrics by sample</text>
+<text x="29" y="64" font-size="14" font-weight="500" fill="#326555" text-anchor="start">Synthetic matrix · 8 features, 4 samples</text>
+<rect x="27" y="81" width="586" height="199" rx="12" fill="#fff" stroke="#aad2c6"/>
+<rect x="28" y="82" width="584" height="38" rx="11" fill="#e8f5ef"/>
+<rect x="28" y="108" width="584" height="12" rx="0" fill="#e8f5ef"/>
+<text x="53" y="106" font-size="15" font-weight="650" fill="#345d51" text-anchor="start">Sample</text>
+<text x="281" y="106" font-size="15" font-weight="650" fill="#345d51" text-anchor="end">Observed</text>
+<text x="431" y="106" font-size="15" font-weight="650" fill="#345d51" text-anchor="end">Missing</text>
+<text x="577" y="106" font-size="15" font-weight="650" fill="#345d51" text-anchor="end">Mean</text>
+<path d="M28 120L612 120" fill="none" stroke="#cee2da" stroke-width="1"/>
+<text x="53" y="146" font-size="18" font-weight="620" fill="#182c43" text-anchor="start">S01</text>
+<text x="281" y="146" font-size="17" font-weight="450" fill="#182c43" text-anchor="end">8</text>
+<text x="431" y="146" font-size="17" font-weight="450" fill="#182c43" text-anchor="end">0</text>
+<text x="577" y="146" font-size="18" font-weight="700" fill="#146852" text-anchor="end">12.0</text>
+<path d="M28 160L612 160" fill="none" stroke="#cee2da" stroke-width="1"/>
+<text x="53" y="186" font-size="18" font-weight="620" fill="#182c43" text-anchor="start">S02</text>
+<text x="281" y="186" font-size="17" font-weight="450" fill="#182c43" text-anchor="end">7</text>
+<text x="431" y="186" font-size="17" font-weight="450" fill="#182c43" text-anchor="end">1</text>
+<text x="577" y="186" font-size="18" font-weight="700" fill="#146852" text-anchor="end">18.0</text>
+<path d="M28 200L612 200" fill="none" stroke="#cee2da" stroke-width="1"/>
+<rect x="28" y="201" width="584" height="39" rx="0" fill="#f5faf7"/>
+<text x="53" y="226" font-size="18" font-weight="620" fill="#182c43" text-anchor="start">S03</text>
+<text x="281" y="226" font-size="17" font-weight="450" fill="#182c43" text-anchor="end">6</text>
+<text x="431" y="226" font-size="17" font-weight="450" fill="#182c43" text-anchor="end">2</text>
+<text x="577" y="226" font-size="18" font-weight="700" fill="#146852" text-anchor="end">9.0</text>
+<path d="M28 240L612 240" fill="none" stroke="#cee2da" stroke-width="1"/>
+<text x="53" y="266" font-size="18" font-weight="620" fill="#182c43" text-anchor="start">S04</text>
+<text x="281" y="266" font-size="17" font-weight="450" fill="#182c43" text-anchor="end">8</text>
+<text x="431" y="266" font-size="17" font-weight="450" fill="#182c43" text-anchor="end">0</text>
+<text x="577" y="266" font-size="18" font-weight="700" fill="#146852" text-anchor="end">15.0</text>
+</svg>

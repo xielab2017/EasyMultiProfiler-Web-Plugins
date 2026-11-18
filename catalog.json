@@ -12,7 +12,21 @@
       "在对话框加入 PDF、摘要或 Markdown，选择「要点」「研究方法」或「局限性」后发送。"
     ],
     "note": "设置可选择随屏幕大小、展开或收起。问答与 Agent 共用 EMP 的模型连接。启停保留当前浏览器保存的对话文字。需要 EMP 的 Python AI 服务和可用模型。",
-    "permission": "chat.panel，使用 EMP 提供的研究对话窗口。"
+    "permission": "chat.panel，使用 EMP 提供的研究对话窗口。",
+    "preview_alt": "研究对话示意，展示方法提问与研究笔记。",
+    "en": {
+      "title": "Zotero-style research chat",
+      "kind": "Research chat",
+      "summary": "Read papers alongside your analysis. Use an existing MiniMax or other model connection to turn a question into a research note.",
+      "steps": [
+        "In EMP 10.4 or later, open Plugins and select Install and enable on the research chat card.",
+        "Load a model under Models and API, then select Open chat on the plugin card.",
+        "Attach a PDF, abstract or Markdown note. Select Key points, Methodology or Limitations and send your question."
+      ],
+      "note": "Choose a collapsed, expanded or screen-adaptive panel in Settings. Chat and Agent share the EMP model connection. Saved conversations remain in this browser after disabling the plugin. A running Python AI service and a configured model are required.",
+      "permission": "chat.panel opens the research chat panel provided by EMP.",
+      "preview_alt": "Illustration of a methods question and a research note."
+    }
   },
   {
     "path": "examples/sample-quality",
@@ -27,7 +41,21 @@
       "点击「运行分析」查看指标。10.2 起可在插件设置中选择需要的指标。"
     ],
     "note": "适用于特征为行、样本为列的数值矩阵。变异系数使用标准差除以均值，均值为零时结果为空。",
-    "permission": "assay.read 读取选定矩阵，job.result.write 写入新任务结果。"
+    "permission": "assay.read 读取选定矩阵，job.result.write 写入新任务结果。",
+    "preview_alt": "合成样本的质量统计表示例。",
+    "en": {
+      "title": "Sample quality summary",
+      "kind": "Analysis methods",
+      "summary": "Calculate observed and missing values, mean, standard deviation and coefficient of variation for each sample.",
+      "steps": [
+        "In EMP 10.4 or later, open Plugins and select Install and enable.",
+        "Import a numeric matrix. In Plugins, choose the experiment, primary assay and Sample quality summary.",
+        "Select Run analysis. In EMP 10.2 or later, choose the metrics to compute in Settings."
+      ],
+      "note": "Use features as rows and samples as columns. The coefficient of variation is the sample standard deviation divided by its mean. A zero mean gives a missing result.",
+      "permission": "assay.read reads the selected matrix. job.result.write saves the new analysis result.",
+      "preview_alt": "Example quality table for synthetic samples."
+    }
   },
   {
     "path": "examples/quality-bars",
@@ -42,7 +70,21 @@
       "选择 Sample quality bars，点击「展示结果」。"
     ],
     "note": "默认显示前 30 行。EMP 10.2 起可在设置中切换表格或条形图，并调整行数。",
-    "permission": "job.result.read 读取所选任务的结果表。"
+    "permission": "job.result.read 读取所选任务的结果表。",
+    "preview_alt": "用与质量统计表相同的合成样本展示均值。",
+    "en": {
+      "title": "Sample quality bars",
+      "kind": "Result views",
+      "summary": "Compare sample means from an existing result table in a bar chart.",
+      "steps": [
+        "In EMP 10.4 or later, open Plugins and select Install and enable.",
+        "Choose a completed plugin job containing a mean column, such as a Sample quality summary result.",
+        "Choose Sample quality bars and select Show result."
+      ],
+      "note": "The default view displays the first 30 rows. From EMP 10.2, Settings lets you switch between bars and a table and adjust the row limit.",
+      "permission": "job.result.read reads the selected job’s result table.",
+      "preview_alt": "Bar chart of mean values from the same synthetic samples as the quality table."
+    }
   },
   {
     "path": "ai-providers/groq",
@@ -57,6 +99,20 @@
       "检测模型列表，选择账号可用的模型，保存并加载后进行连接测试。"
     ],
     "note": "需要可访问 Groq 的网络与有效凭据。旧版可将 plugin.json 放入 plugins/ai-providers/groq/ 后刷新页面。",
-    "permission": "调用模型会向 api.groq.com 发送本次提交的内容。下载包只包含服务清单。"
+    "permission": "调用模型会向 api.groq.com 发送本次提交的内容。下载包只包含服务清单。",
+    "preview_alt": "Groq 模型配置与连接操作示意。",
+    "en": {
+      "title": "Groq model provider",
+      "kind": "Model services",
+      "summary": "Add Groq to the EMP model selector and test the connection with your own API key.",
+      "steps": [
+        "In EMP 10.4 or later, open Plugins and select Install on the Groq card. Choose Settings if it is already installed.",
+        "Under Models and API, select Groq · Plugin and enter your own Groq API key.",
+        "Fetch the model list, select a model available to your account, then save, load and test the connection."
+      ],
+      "note": "Requires access to Groq and valid credentials. In older versions, place plugin.json in plugins/ai-providers/groq/ and refresh the page.",
+      "permission": "Model requests send the submitted content to api.groq.com. The download contains only the provider manifest.",
+      "preview_alt": "Example Groq provider configuration and connection controls."
+    }
   }
 ]
